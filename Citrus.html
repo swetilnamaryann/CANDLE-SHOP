@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Still Glow Candles</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Engagement&family=Marck+Script&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<main>
+    <section class="flavour-section">
+        <div class="flavour-image">
+            <img src="images/Clean%20Citrus%20-%20450g%20-%20Organic%20&%20Vegan%20Scented%20Candles%20_%20Ocoee%20House.jpeg" alt="Fresh Citrus Candle">
+        </div>
+        <div class="flavour-content">
+            <h1>Fresh Citrus</h1>
+            <p>$19.99</p>
+            <p>Invigorate your senses with the uplifting aroma of our Citrus Candle, expertly blended to capture the refreshing essence of citrus fruits. The zesty scent of citrus essential oils boosts energy, enhances mood, and creates a lively ambiance, perfect for revitalizing your home or office. Let the vibrant glow and revitalizing aroma of our Citrus Candle energize your space, uplifting your spirit and inspiring creativity</p>
+            <button class="purchase-btn">Purchase Now</button>
+            <button class="add-to-cart-btn">Add to Cart</button>
+            <button class="add-to-wishlist-btn">Add to Wishlist</button>
+            <p id="add-to-cart-message" style="display: none;">Added to Cart!</p>
+            <p id="add-to-wishlist-message" style="display: none;">Added to Wishlist!</p>
+            <div class="feedback-popup" id="feedback-popup">
+                <div class="feedback-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>Leave a Review</h2>
+                    <form id="review-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="review">Review:</label>
+                        <textarea id="review" name="review"></textarea><br><br>
+                        <input type="submit" value="Submit Review">
+                        <p id="review-submitted" style="display: none;">Review Submitted!</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-reviews-section">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <p>"I love this candle! The scent is so uplifting and refreshing. I light it every morning to start my day off right."</p>
+            <p>- Emily R.</p>
+        </div>
+        <div class="review">
+            <p>"This candle is amazing! The quality is top-notch and the fragrance is incredible. I've already ordered another one!"</p>
+            <p>- David K.</p>
+        </div>
+
+        <button class="feedback-btn">Leave Feedback</button>
+
+        <section class="suggested-products-section">
+            <h2>Suggested Products</h2>
+            <div class="suggested-products-container">
+                 <div class="suggested-product">
+                    <a href="Lavender.html">
+                        <img src="./images/Lavender%20Cedar%20Candle%20-%20Amber%20-3%20Wick%20Jar.jpeg" alt="Lavender">
+                        <h3>Lavender</h3>
+                        <p>$19.99</p>
+                    </a>
+                </div>
+                <div class="suggested-product">
+                    <a href="Vanilla.html">
+                        <img src="./images/Cashmere%20and%20Vanilla%20Soy%20Candle,%20Clear%20Jar%20-%209oz.jpeg" alt="Vanilla">
+                        <h3>Vanilla</h3>
+                        <p>$29.99</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <h3>Still Glow Candles</h3>
+        <p class="footer-description">
+            Hand-poured candles that bring warmth, peace, and a little magic to your home.
+        </p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <form class="footer-newsletter">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+
+        <div class="footer-socials">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+
+        <p class="footer-bottom">&copy; 2024 Still Glow Candles. Crafted with love.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
